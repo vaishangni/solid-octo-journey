@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         int y = 10;
-
+        int b = 20;
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
